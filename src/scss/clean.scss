@@ -1,0 +1,53 @@
+/* © R1Web 2020 */
+
+* {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  font-style: normal;
+  overflow-x: hidden;
+  background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  padding: 0;
+  margin: 0;
+  font-weight: inherit;
+  cursor: default;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -moz-appearance: none;
+  background-color: transparent;
+  color: inherit;
+  font-family: inherit;
+  padding: 0;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+  outline: none;
+}
+
+input[type=number] {
+  &::-webkit-inner-spin-button, &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
